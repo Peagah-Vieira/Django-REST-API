@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django Rest Framework Apps
     'rest_framework',
+    # My Apps
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -85,6 +87,8 @@ DATABASES = {
     }
 }
 
+# Custom User model
+AUTH_USER_MODEL = 'accounts.MyUser'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
