@@ -9,6 +9,10 @@ urlpatterns = [
         'accounts/',
         include('accounts.urls')
     ),
+    path(
+        'articles/',
+        include('articles.urls')
+    )
 ]
 
 # Django Apps Default URLs
