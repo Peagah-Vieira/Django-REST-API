@@ -22,7 +22,7 @@ class WhoAmI(ReadOnlyModelViewSet):
 
 class ListUsers(ReadOnlyModelViewSet):
     serializer_class = AccountsSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated, IsAdminUser]
 
     def get_queryset(self):
         User = get_user_model()
