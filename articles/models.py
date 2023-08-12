@@ -43,7 +43,7 @@ class Article(models.Model):
         max_length=100,
     )   
 
-    category_id = models.ForeignKey(
+    category = models.ForeignKey(
         Category,
         related_name='category',
         null=True,
