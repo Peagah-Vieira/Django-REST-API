@@ -1,13 +1,13 @@
 # Django REST API
 
-A customer relationship management web application built using Django and Tailwind.
+Projeto concretizado com o objetivo de showcase do conhecimento adquirido através do Roadmap, destinado a servir como um exemplar ilustrativo.
 
 ## Executando localmente
 
 Clone o projeto
 
 ```bash
-git clone https://github.com/Peagah-Vieira/Django-CRM-Web-Application
+git clone https://github.com/Peagah-Vieira/Django-REST-API.git
 ```
 
 Crie um ambiente virtual
